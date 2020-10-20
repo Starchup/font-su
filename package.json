@@ -1,0 +1,9 @@
+{
+    "name": "font-su",
+    "version": "1.0.0",
+    "main": "css/style.min.css",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/Starchup/font-su.git"
+    }
+  }
