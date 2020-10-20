@@ -1,0 +1,680 @@
+@import "variables";
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?eiodpz');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?eiodpz#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?eiodpz') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?eiodpz') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?eiodpz##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.su {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.su-safety-pin {
+  &:before {
+    content: $su-safety-pin; 
+  }
+}
+.su-thread {
+  &:before {
+    content: $su-thread; 
+  }
+}
+.su-needle-thread {
+  &:before {
+    content: $su-needle-thread; 
+  }
+}
+.su-lint-roller {
+  &:before {
+    content: $su-lint-roller; 
+  }
+}
+.su-flag {
+  &:before {
+    content: $su-flag; 
+  }
+}
+.su-tent-2 {
+  &:before {
+    content: $su-tent-2; 
+  }
+}
+.su-tent {
+  &:before {
+    content: $su-tent; 
+  }
+}
+.su-sleeping-bag {
+  &:before {
+    content: $su-sleeping-bag; 
+  }
+}
+.su-detergent-2 {
+  &:before {
+    content: $su-detergent-2; 
+  }
+}
+.su-detergent {
+  &:before {
+    content: $su-detergent; 
+  }
+}
+.su-blanket-2 {
+  &:before {
+    content: $su-blanket-2; 
+  }
+}
+.su-towel-2 {
+  &:before {
+    content: $su-towel-2; 
+  }
+}
+.su-towel {
+  &:before {
+    content: $su-towel; 
+  }
+}
+.su-napkin {
+  &:before {
+    content: $su-napkin; 
+  }
+}
+.su-apron {
+  &:before {
+    content: $su-apron; 
+  }
+}
+.su-curtains {
+  &:before {
+    content: $su-curtains; 
+  }
+}
+.su-pillow {
+  &:before {
+    content: $su-pillow; 
+  }
+}
+.su-scarf-2 {
+  &:before {
+    content: $su-scarf-2; 
+  }
+}
+.su-scarf {
+  &:before {
+    content: $su-scarf; 
+  }
+}
+.su-tie {
+  &:before {
+    content: $su-tie; 
+  }
+}
+.su-tie-2 {
+  &:before {
+    content: $su-tie-2; 
+  }
+}
+.su-hat-4 {
+  &:before {
+    content: $su-hat-4; 
+  }
+}
+.su-hat-3 {
+  &:before {
+    content: $su-hat-3; 
+  }
+}
+.su-hat-2 {
+  &:before {
+    content: $su-hat-2; 
+  }
+}
+.su-zipper {
+  &:before {
+    content: $su-zipper; 
+  }
+}
+.su-blanket {
+  &:before {
+    content: $su-blanket; 
+  }
+}
+.su-sheet {
+  &:before {
+    content: $su-sheet; 
+  }
+}
+.su-rug-3 {
+  &:before {
+    content: $su-rug-3; 
+  }
+}
+.su-rug-2 {
+  &:before {
+    content: $su-rug-2; 
+  }
+}
+.su-belt {
+  &:before {
+    content: $su-belt; 
+  }
+}
+.su-bed {
+  &:before {
+    content: $su-bed; 
+  }
+}
+.su-chair {
+  &:before {
+    content: $su-chair; 
+  }
+}
+.su-couch {
+  &:before {
+    content: $su-couch; 
+  }
+}
+.su-table {
+  &:before {
+    content: $su-table; 
+  }
+}
+.su-scale {
+  &:before {
+    content: $su-scale; 
+  }
+}
+.su-chair-2 {
+  &:before {
+    content: $su-chair-2; 
+  }
+}
+.su-rug {
+  &:before {
+    content: $su-rug; 
+  }
+}
+.su-washer {
+  &:before {
+    content: $su-washer; 
+  }
+}
+.su-sewing-machine {
+  &:before {
+    content: $su-sewing-machine; 
+  }
+}
+.su-clock {
+  &:before {
+    content: $su-clock; 
+  }
+}
+.su-clock-2 {
+  &:before {
+    content: $su-clock-2; 
+  }
+}
+.su-purse {
+  &:before {
+    content: $su-purse; 
+  }
+}
+.su-bag-2 {
+  &:before {
+    content: $su-bag-2; 
+  }
+}
+.su-bag {
+  &:before {
+    content: $su-bag; 
+  }
+}
+.su-hat {
+  &:before {
+    content: $su-hat; 
+  }
+}
+.su-gloves {
+  &:before {
+    content: $su-gloves; 
+  }
+}
+.su-sandal-2 {
+  &:before {
+    content: $su-sandal-2; 
+  }
+}
+.su-sandal {
+  &:before {
+    content: $su-sandal; 
+  }
+}
+.su-slipper-3 {
+  &:before {
+    content: $su-slipper-3; 
+  }
+}
+.su-slipper-2 {
+  &:before {
+    content: $su-slipper-2; 
+  }
+}
+.su-slipper {
+  &:before {
+    content: $su-slipper; 
+  }
+}
+.su-boots-3 {
+  &:before {
+    content: $su-boots-3; 
+  }
+}
+.su-boots-2 {
+  &:before {
+    content: $su-boots-2; 
+  }
+}
+.su-heels-4 {
+  &:before {
+    content: $su-heels-4; 
+  }
+}
+.su-heels-3 {
+  &:before {
+    content: $su-heels-3; 
+  }
+}
+.su-boots {
+  &:before {
+    content: $su-boots; 
+  }
+}
+.su-heels-2 {
+  &:before {
+    content: $su-heels-2; 
+  }
+}
+.su-heels {
+  &:before {
+    content: $su-heels; 
+  }
+}
+.su-shoes-4 {
+  &:before {
+    content: $su-shoes-4; 
+  }
+}
+.su-shoes-3 {
+  &:before {
+    content: $su-shoes-3; 
+  }
+}
+.su-shoes-2 {
+  &:before {
+    content: $su-shoes-2; 
+  }
+}
+.su-shoes {
+  &:before {
+    content: $su-shoes; 
+  }
+}
+.su-socks-5 {
+  &:before {
+    content: $su-socks-5; 
+  }
+}
+.su-underwear-5 {
+  &:before {
+    content: $su-underwear-5; 
+  }
+}
+.su-socks-4 {
+  &:before {
+    content: $su-socks-4; 
+  }
+}
+.su-socks-3 {
+  &:before {
+    content: $su-socks-3; 
+  }
+}
+.su-socks-2 {
+  &:before {
+    content: $su-socks-2; 
+  }
+}
+.su-socks {
+  &:before {
+    content: $su-socks; 
+  }
+}
+.su-underwear-4 {
+  &:before {
+    content: $su-underwear-4; 
+  }
+}
+.su-underwear-3 {
+  &:before {
+    content: $su-underwear-3; 
+  }
+}
+.su-underwear-7 {
+  &:before {
+    content: $su-underwear-7; 
+  }
+}
+.su-underwear-8 {
+  &:before {
+    content: $su-underwear-8; 
+  }
+}
+.su-underwear-2 {
+  &:before {
+    content: $su-underwear-2; 
+  }
+}
+.su-underwear {
+  &:before {
+    content: $su-underwear; 
+  }
+}
+.su-underwear-6 {
+  &:before {
+    content: $su-underwear-6; 
+  }
+}
+.su-bikini-bottom-2 {
+  &:before {
+    content: $su-bikini-bottom-2; 
+  }
+}
+.su-bikini-bottom {
+  &:before {
+    content: $su-bikini-bottom; 
+  }
+}
+.su-bikini-top {
+  &:before {
+    content: $su-bikini-top; 
+  }
+}
+.su-bra-6 {
+  &:before {
+    content: $su-bra-6; 
+  }
+}
+.su-bra-4 {
+  &:before {
+    content: $su-bra-4; 
+  }
+}
+.su-bra-5 {
+  &:before {
+    content: $su-bra-5; 
+  }
+}
+.su-bra-2 {
+  &:before {
+    content: $su-bra-2; 
+  }
+}
+.su-bra-3 {
+  &:before {
+    content: $su-bra-3; 
+  }
+}
+.su-bra {
+  &:before {
+    content: $su-bra; 
+  }
+}
+.su-vest {
+  &:before {
+    content: $su-vest; 
+  }
+}
+.su-blouse-3 {
+  &:before {
+    content: $su-blouse-3; 
+  }
+}
+.su-blouse-2 {
+  &:before {
+    content: $su-blouse-2; 
+  }
+}
+.su-dress-9 {
+  &:before {
+    content: $su-dress-9; 
+  }
+}
+.su-dress-8 {
+  &:before {
+    content: $su-dress-8; 
+  }
+}
+.su-dress-7 {
+  &:before {
+    content: $su-dress-7; 
+  }
+}
+.su-skirt-6 {
+  &:before {
+    content: $su-skirt-6; 
+  }
+}
+.su-skirt-5 {
+  &:before {
+    content: $su-skirt-5; 
+  }
+}
+.su-skirt-4 {
+  &:before {
+    content: $su-skirt-4; 
+  }
+}
+.su-skirt-2 {
+  &:before {
+    content: $su-skirt-2; 
+  }
+}
+.su-skirt-3 {
+  &:before {
+    content: $su-skirt-3; 
+  }
+}
+.su-skirt {
+  &:before {
+    content: $su-skirt; 
+  }
+}
+.su-pants-5 {
+  &:before {
+    content: $su-pants-5; 
+  }
+}
+.su-dress-6 {
+  &:before {
+    content: $su-dress-6; 
+  }
+}
+.su-coat-2 {
+  &:before {
+    content: $su-coat-2; 
+  }
+}
+.su-coat {
+  &:before {
+    content: $su-coat; 
+  }
+}
+.su-dress-5 {
+  &:before {
+    content: $su-dress-5; 
+  }
+}
+.su-dress-4 {
+  &:before {
+    content: $su-dress-4; 
+  }
+}
+.su-hoodie-2 {
+  &:before {
+    content: $su-hoodie-2; 
+  }
+}
+.su-blazer-2 {
+  &:before {
+    content: $su-blazer-2; 
+  }
+}
+.su-hoodie {
+  &:before {
+    content: $su-hoodie; 
+  }
+}
+.su-sweater-2 {
+  &:before {
+    content: $su-sweater-2; 
+  }
+}
+.su-shirt-polo-3 {
+  &:before {
+    content: $su-shirt-polo-3; 
+  }
+}
+.su-shirt-polo-2 {
+  &:before {
+    content: $su-shirt-polo-2; 
+  }
+}
+.su-blazer {
+  &:before {
+    content: $su-blazer; 
+  }
+}
+.su-sweater {
+  &:before {
+    content: $su-sweater; 
+  }
+}
+.su-dress-3 {
+  &:before {
+    content: $su-dress-3; 
+  }
+}
+.su-robe-1 {
+  &:before {
+    content: $su-robe-1; 
+  }
+}
+.su-uniform {
+  &:before {
+    content: $su-uniform; 
+  }
+}
+.su-dress-2 {
+  &:before {
+    content: $su-dress-2; 
+  }
+}
+.su-pants-4 {
+  &:before {
+    content: $su-pants-4; 
+  }
+}
+.su-pants-3 {
+  &:before {
+    content: $su-pants-3; 
+  }
+}
+.su-pants-2 {
+  &:before {
+    content: $su-pants-2; 
+  }
+}
+.su-pants {
+  &:before {
+    content: $su-pants; 
+  }
+}
+.su-overalls {
+  &:before {
+    content: $su-overalls; 
+  }
+}
+.su-shorts-3 {
+  &:before {
+    content: $su-shorts-3; 
+  }
+}
+.su-shorts-2 {
+  &:before {
+    content: $su-shorts-2; 
+  }
+}
+.su-shorts {
+  &:before {
+    content: $su-shorts; 
+  }
+}
+.su-dress {
+  &:before {
+    content: $su-dress; 
+  }
+}
+.su-robe {
+  &:before {
+    content: $su-robe; 
+  }
+}
+.su-blouse {
+  &:before {
+    content: $su-blouse; 
+  }
+}
+.su-shirt-polo {
+  &:before {
+    content: $su-shirt-polo; 
+  }
+}
+.su-shirt {
+  &:before {
+    content: $su-shirt; 
+  }
+}
+.su-tank {
+  &:before {
+    content: $su-tank; 
+  }
+}
+.su-top {
+  &:before {
+    content: $su-top; 
+  }
+}
+.su-hanger {
+  &:before {
+    content: $su-hanger; 
+  }
+}
+
