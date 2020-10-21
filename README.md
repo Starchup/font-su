@@ -21,4 +21,6 @@
 1. Open downloaded zip file.
 1. Rename `demo.html` to `index.html`.
 1. Move the newly renamed `index.html` file to the `gh-pages` branch folder.
-1. Move `demo-files/demo.css` and `demo-files/demo.js` to the `demo-files` folder in the `gh-pages` branch folder.
+1. Move `demo-files` and `fonts` folders, along with `styles.css` to the `gh-pages` folder.
+1. Push to the `gh-pages` branch.
+1. Visit [ENTER URL WHEN GENERATED]
