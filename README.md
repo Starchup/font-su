@@ -23,10 +23,10 @@
 > IcoMoon only stores projects in an individual browser's cache and supplies a [`selection.json`](https://github.com/Starchup/font-su/blob/master/selection.json) file to upload as a project in order to edit. Projects aren't tied to "accounts" they're tied to a browser, so we'll need to upload the most recent `selection.json` each time we want to edit to ensure we're editing the most recent version of our font.
 
 1. Import `selection.json` to the IcoMoon app using the `Import Icons` button.
-1. Follow the steps below to [Import new / updated icon to IcoMoon]()
+1. Follow the steps below to [Import new / updated icon to IcoMoon](https://github.com/Starchup/font-su/blob/master/README.md#import-new--updated-icon-to-icomoon)
 
 ## Import new / updated icon to IcoMoon
-1. After you [Create / Update Icon (svg)](), drag and drop it the `font-su` project under the appropriate section (or create a new section) - _note this isn't extremely important, just a way to keep separation of icon origin within IcoMoon._
+1. After you [Create / Update Icon (svg)](https://github.com/Starchup/font-su/blob/master/README.md#create--update-icon-svg), drag and drop it the `font-su` project under the appropriate section (or create a new section) - _note this isn't extremely important, just a way to keep separation of icon origin within IcoMoon._
 
 ## Export from IcoMoon
 1.
