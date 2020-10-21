@@ -1,3 +1,9 @@
+# Font SU
+Starchup's custom icon font family for garments and things.
+
+- :tv: **[Click here to see a full explainer video](https://youtu.be/drEyugXElqA)** on how to update the font family with a new icon.
+- :books: **[Click here to see full documentation](https://starchup.github.io/font-su/)** of the font-su icons in action.
+
 ## Create / Update Icon (svg)
 > **Note:** This requires some editor tool like Adobe Illustrator/Photoshop or Affinity Desiger.
 
