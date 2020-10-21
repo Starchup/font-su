@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'font-su';
-  src:  url('../fonts/font-su.eot?q6fr89');
-  src:  url('../fonts/font-su.eot?q6fr89#iefix') format('embedded-opentype'),
-    url('../fonts/font-su.ttf?q6fr89') format('truetype'),
-    url('../fonts/font-su.woff?q6fr89') format('woff'),
-    url('../fonts/font-su.svg?q6fr89#font-su') format('svg');
+  src:  url('fonts/font-su.eot?q6fr89');
+  src:  url('fonts/font-su.eot?q6fr89#iefix') format('embedded-opentype'),
+    url('fonts/font-su.ttf?q6fr89') format('truetype'),
+    url('fonts/font-su.woff?q6fr89') format('woff'),
+    url('fonts/font-su.svg?q6fr89#font-su') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
