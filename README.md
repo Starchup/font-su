@@ -14,10 +14,10 @@
     1. Don't export layers hidden by Export persona: unchecked
     1. Click "Export"
     1. Export to the `svgs` folder in your local `font-su` repo (see notes)
-    
+
 **Notes:**
 1. When editing / creating new icon.. make sure, if you used "stroke" or the purchased icon came with "stroke", to select `Layer > Expand Stroke`. Strokes will not be picked up when exporting font files from IcoMoon. Also, make sure to combine all layers/elements into some simple layer (In Affinity Designer, click "Add" icon in top right while all layers are selected)
-1. When exporting a new icon, be sure to choose a name for the icon that will also be used for the css selector for the icon. The name should also be generic as we can choose the label/alt names within our codebase. For the font, the more generic the better. Also, make sure to check for class names that already exist. For example, if you're exporting a `shirt` there are likely more `shirt` icons, so you might have to make yours `shirt-2`. 
+1. When exporting a new icon, be sure to choose a name for the icon that will also be used for the css selector for the icon. The name should also be generic as we can choose the label/alt names within our codebase. For the font, the more generic the better. Also, make sure to check for class names that already exist. For example, if you're exporting a `shirt` there are likely more `shirt` icons, so you might have to make yours `shirt-2`.
 
 ## Import `font-su` project to IcoMoon
 > IcoMoon only stores projects in an individual browser's cache and supplies a [`selection.json`](https://github.com/Starchup/font-su/blob/master/selection.json) file to upload as a project in order to edit. Projects aren't tied to "accounts" they're tied to a browser, so we'll need to upload the most recent `selection.json` each time we want to edit to ensure we're editing the most recent version of our font.
@@ -35,6 +35,9 @@
 1. Clone this repo and checkout the `master` branch.
 1. Export font from icomoon. See [Exporting from IcoMoon](#export-from-icomoon) for export details.
 1. Open downloaded zip files.
+1. Follow the instructions below to update the font family and documentation
+
+#### Update font family
 1. Move `styles.scss` and `variables.scss` to the `/scss` folder.
 1. Open `styles.scss` and update `$icomoon-font-path: "fonts" !default;` to `$icomoon-font-path: "../fonts" !default;`
 1. Move `style.css` to the `/css` folder.
@@ -42,5 +45,7 @@
 1. Go to [CSS Minifier](https://cssminifier.com/). Copy/paste the code from `style.css`, click "Minify", copy minified code to clipboard, and replace the code in `css/style.min.css`
 1. Update package.json with latest version (should version set in IcoMoon that is stored in `selection.json`)
 
-## Update `font-su` documentation
-Visit the [Github Pages README.md](https://github.com/Starchup/font-su/edit/gh-pages/README.md) for this repo.
+#### Update documentation
+1. Rename `demo.html` to `index.html` and move to the `/docs` folder
+1. Open `index.html` and, in the `<head>`, update `<link rel="stylesheet" href="style.css">` to `<link rel="stylesheet" href="../css/style.css">` (add `../css/`)
+1. Move the `/demo-files` folder and files to the `/docs` folder
