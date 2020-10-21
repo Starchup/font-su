@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'font-su';
-  src:  url('../fonts/font-su.eot?q6fr89');
-  src:  url('../fonts/font-su.eot?q6fr89#iefix') format('embedded-opentype'),
-    url('../fonts/font-su.ttf?q6fr89') format('truetype'),
-    url('../fonts/font-su.woff?q6fr89') format('woff'),
-    url('../fonts/font-su.svg?q6fr89#font-su') format('svg');
+  src:  url('../fonts/font-su.eot?wm9c0b');
+  src:  url('../fonts/font-su.eot?wm9c0b#iefix') format('embedded-opentype'),
+    url('../fonts/font-su.ttf?wm9c0b') format('truetype'),
+    url('../fonts/font-su.woff?wm9c0b') format('woff'),
+    url('../fonts/font-su.svg?wm9c0b#font-su') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -147,6 +147,9 @@
 }
 .su-clock-2:before {
   content: "\f126";
+}
+.su-shirt:before {
+  content: "\e955";
 }
 .su-sandals-2:before {
   content: "\e90a";
@@ -402,9 +405,6 @@
 }
 .su-shirt-polo:before {
   content: "\e954";
-}
-.su-shirt:before {
-  content: "\e955";
 }
 .su-tank:before {
   content: "\e956";
