@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'font-su';
-  src:  url('../fonts/font-su.eot?eiodpz');
-  src:  url('../fonts/font-su.eot?eiodpz#iefix') format('embedded-opentype'),
-    url('../fonts/font-su.ttf?eiodpz') format('truetype'),
-    url('../fonts/font-su.woff?eiodpz') format('woff'),
-    url('../fonts/font-su.svg?eiodpz#font-su') format('svg');
+  src:  url('../fonts/font-su.eot?q6fr89');
+  src:  url('../fonts/font-su.eot?q6fr89#iefix') format('embedded-opentype'),
+    url('../fonts/font-su.ttf?q6fr89') format('truetype'),
+    url('../fonts/font-su.woff?q6fr89') format('woff'),
+    url('../fonts/font-su.svg?q6fr89#font-su') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -148,6 +148,15 @@
 .su-clock-2:before {
   content: "\f126";
 }
+.su-sandals-2:before {
+  content: "\e90a";
+}
+.su-sandals:before {
+  content: "\e90b";
+}
+.su-robe-2:before {
+  content: "\e94b";
+}
 .su-purse:before {
   content: "\e901";
 }
@@ -162,12 +171,6 @@
 }
 .su-gloves:before {
   content: "\e909";
-}
-.su-sandal-2:before {
-  content: "\e90a";
-}
-.su-sandal:before {
-  content: "\e90b";
 }
 .su-slipper-3:before {
   content: "\e90c";
@@ -357,9 +360,6 @@
 }
 .su-dress-3:before {
   content: "\e94a";
-}
-.su-robe-1:before {
-  content: "\e94b";
 }
 .su-uniform:before {
   content: "\e94c";

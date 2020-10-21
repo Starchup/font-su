@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: '#{$icomoon-font-family}';
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?eiodpz');
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?eiodpz#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?eiodpz') format('truetype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?eiodpz') format('woff'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?eiodpz##{$icomoon-font-family}') format('svg');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?q6fr89');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?q6fr89#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?q6fr89') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?q6fr89') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?q6fr89##{$icomoon-font-family}') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -232,6 +232,21 @@
     content: $su-clock-2; 
   }
 }
+.su-sandals-2 {
+  &:before {
+    content: $su-sandals-2; 
+  }
+}
+.su-sandals {
+  &:before {
+    content: $su-sandals; 
+  }
+}
+.su-robe-2 {
+  &:before {
+    content: $su-robe-2; 
+  }
+}
 .su-purse {
   &:before {
     content: $su-purse; 
@@ -255,16 +270,6 @@
 .su-gloves {
   &:before {
     content: $su-gloves; 
-  }
-}
-.su-sandal-2 {
-  &:before {
-    content: $su-sandal-2; 
-  }
-}
-.su-sandal {
-  &:before {
-    content: $su-sandal; 
   }
 }
 .su-slipper-3 {
@@ -580,11 +585,6 @@
 .su-dress-3 {
   &:before {
     content: $su-dress-3; 
-  }
-}
-.su-robe-1 {
-  &:before {
-    content: $su-robe-1; 
   }
 }
 .su-uniform {
