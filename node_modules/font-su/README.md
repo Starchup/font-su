@@ -55,4 +55,4 @@ Any time we update `font-su`, we should update both the font family repo AND the
 1. Push changes to `master`
 
 #### Update documentation
-1. Visit README.md in `gh-pages` repo to update documentation.
+1. Visit [README.md in `gh-pages` branch](https://github.com/Starchup/font-su/tree/gh-pages) to update documentation.

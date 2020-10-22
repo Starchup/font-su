@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'font-su';
-  src:  url('../fonts/font-su.eot?wm9c0b');
-  src:  url('../fonts/font-su.eot?wm9c0b#iefix') format('embedded-opentype'),
-    url('../fonts/font-su.ttf?wm9c0b') format('truetype'),
-    url('../fonts/font-su.woff?wm9c0b') format('woff'),
-    url('../fonts/font-su.svg?wm9c0b#font-su') format('svg');
+  src:  url('../fonts/font-su.eot?s5tngz');
+  src:  url('../fonts/font-su.eot?s5tngz#iefix') format('embedded-opentype'),
+    url('../fonts/font-su.ttf?s5tngz') format('truetype'),
+    url('../fonts/font-su.woff?s5tngz') format('woff'),
+    url('../fonts/font-su.svg?s5tngz#font-su') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -147,6 +147,18 @@
 }
 .su-clock-2:before {
   content: "\f126";
+}
+.su-pants-2:before {
+  content: "\e902";
+}
+.su-pants-3:before {
+  content: "\e94e";
+}
+.su-pants-4:before {
+  content: "\e94f";
+}
+.su-pants:before {
+  content: "\e975";
 }
 .su-shirt:before {
   content: "\e955";
@@ -369,18 +381,6 @@
 }
 .su-dress-2:before {
   content: "\e94d";
-}
-.su-pants-4:before {
-  content: "\e94e";
-}
-.su-pants-3:before {
-  content: "\e94f";
-}
-.su-pants-2:before {
-  content: "\e902";
-}
-.su-pants:before {
-  content: "\1f5e4";
 }
 .su-overalls:before {
   content: "\e903";

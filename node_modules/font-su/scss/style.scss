@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: '#{$icomoon-font-family}';
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?wm9c0b');
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?wm9c0b#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?wm9c0b') format('truetype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?wm9c0b') format('woff'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?wm9c0b##{$icomoon-font-family}') format('svg');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?s5tngz');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?s5tngz#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?s5tngz') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?s5tngz') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?s5tngz##{$icomoon-font-family}') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -230,6 +230,26 @@
 .su-clock-2 {
   &:before {
     content: $su-clock-2; 
+  }
+}
+.su-pants-2 {
+  &:before {
+    content: $su-pants-2; 
+  }
+}
+.su-pants-3 {
+  &:before {
+    content: $su-pants-3; 
+  }
+}
+.su-pants-4 {
+  &:before {
+    content: $su-pants-4; 
+  }
+}
+.su-pants {
+  &:before {
+    content: $su-pants; 
   }
 }
 .su-shirt {
@@ -600,26 +620,6 @@
 .su-dress-2 {
   &:before {
     content: $su-dress-2; 
-  }
-}
-.su-pants-4 {
-  &:before {
-    content: $su-pants-4; 
-  }
-}
-.su-pants-3 {
-  &:before {
-    content: $su-pants-3; 
-  }
-}
-.su-pants-2 {
-  &:before {
-    content: $su-pants-2; 
-  }
-}
-.su-pants {
-  &:before {
-    content: $su-pants; 
   }
 }
 .su-overalls {
