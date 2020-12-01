@@ -35,7 +35,15 @@ Starchup's custom icon font family for garments and things.
 1. After you [Create / Update Icon (svg)](https://github.com/Starchup/font-su/blob/master/README.md#create--update-icon-svg), drag and drop it the `font-su` project under the appropriate section (or create a new section) - _note this isn't extremely important, just a way to keep separation of icon origin within IcoMoon._
 
 ## Export from IcoMoon
-1.
+1. When you're ready to export, ensure all icons are selected and click "Generate Font" (bottom right)
+1. Click "Preferences" at top left and ensure the following: (**Important:** Make sure you bump the version number)
+    1. Font Name: font-su
+    1. Class Prefix: su-
+    1. Support IE 8: checked
+    1. Generate preprocessor variables for: Sass
+    1. CSS Selectors > Use a class: .su
+    1. Version: bump as needed (usually 'minor')
+1. Click "Download" button (bottom right)
 
 ## Update font-su repo
 Any time we update `font-su`, we should update both the font family repo AND the documentation.
