@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: '#{$icomoon-font-family}';
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?s5tngz');
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?s5tngz#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?s5tngz') format('truetype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?s5tngz') format('woff'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?s5tngz##{$icomoon-font-family}') format('svg');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?zhabmq');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?zhabmq#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?zhabmq') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?zhabmq') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?zhabmq##{$icomoon-font-family}') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -27,6 +27,76 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.su-suit-three-piece {
+  &:before {
+    content: $su-suit-three-piece; 
+  }
+}
+.su-suit-two-piece {
+  &:before {
+    content: $su-suit-two-piece; 
+  }
+}
+.su-vest-2 {
+  &:before {
+    content: $su-vest-2; 
+  }
+}
+.su-vest-3 {
+  &:before {
+    content: $su-vest-3; 
+  }
+}
+.su-raincoat-2 {
+  &:before {
+    content: $su-raincoat-2; 
+  }
+}
+.su-raincoat-3 {
+  &:before {
+    content: $su-raincoat-3; 
+  }
+}
+.su-raincoat {
+  &:before {
+    content: $su-raincoat; 
+  }
+}
+.su-parka {
+  &:before {
+    content: $su-parka; 
+  }
+}
+.su-coat-down-2 {
+  &:before {
+    content: $su-coat-down-2; 
+  }
+}
+.su-coat-down {
+  &:before {
+    content: $su-coat-down; 
+  }
+}
+.su-comforter {
+  &:before {
+    content: $su-comforter; 
+  }
+}
+.su-coat-3 {
+  &:before {
+    content: $su-coat-3; 
+  }
+}
+.su-blazer-3 {
+  &:before {
+    content: $su-blazer-3; 
+  }
+}
+.su-cardigan {
+  &:before {
+    content: $su-cardigan; 
+  }
+}
 .su-safety-pin {
   &:before {
     content: $su-safety-pin; 
